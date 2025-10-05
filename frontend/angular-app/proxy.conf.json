@@ -1,0 +1,22 @@
+{
+  "/api/Employees": {
+    "target": "https://localhost:7141",
+    "secure": false,
+    "changeOrigin": true
+  },
+  "/api/departments": {
+    "target": "http://localhost:8085",
+    "secure": false,
+    "changeOrigin": true
+  },
+   "/api/projects": {
+    "target": "http://localhost:8085",
+    "secure": false,
+    "changeOrigin": true
+  },
+   "/api/assignments": {
+    "target": "http://localhost:8085",
+    "secure": false,
+    "changeOrigin": true
+  }
+}

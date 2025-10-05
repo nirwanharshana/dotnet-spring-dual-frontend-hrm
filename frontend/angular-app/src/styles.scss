@@ -1,0 +1,31 @@
+// 1. Load the pre-built theme for component structure and basic styles
+@import '@angular/material/prebuilt-themes/indigo-pink.css';
+
+// 2. Define the exact color palette from your screenshot
+:root {
+  --header-bg: #1e293b;         // Dark Slate Blue for the header
+  --page-bg: #f8fafc;           // Very light gray for the page background
+  --surface-bg: #ffffff;       // White for cards and tables
+  
+  --primary-orange: #f97316;    // The main orange for buttons
+  --primary-orange-hover: #ea580c;
+
+  --text-dark: #0f172a;         // Main text color (slate-900)
+  --text-light: #64748b;        // Subtitle text color (slate-500)
+  --text-link-edit: #3b82f6;    // Blue for "Edit" link
+  --text-link-delete: #ef4444;  // Red for "Delete" link
+
+  --border-color: #e2e8f0;      // Light border color (slate-200)
+}
+
+// 3. Set up global body styles
+html, body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+  background-color: var(--page-bg);
+  color: var(--text-dark);
+}
